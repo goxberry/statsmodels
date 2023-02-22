@@ -1165,7 +1165,7 @@ def varcorrection_unequal(var_all, nobs_all, df_all):
     varjoint : float
         joint variance.
     dfjoint : float
-        joint Satterthwait's degrees of freedom
+        joint Satterthwaite's degrees of freedom
 
 
     Notes
@@ -1213,7 +1213,7 @@ def varcorrection_pairs_unequal(var_all, nobs_all, df_all):
     varjoint : ndarray
         joint variance.
     dfjoint : ndarray
-        joint Satterthwait's degrees of freedom
+        joint Satterthwaite's degrees of freedom
 
 
     Notes

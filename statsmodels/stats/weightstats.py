@@ -1032,7 +1032,7 @@ class CompareMeans:
 
         usevar : str, 'pooled' or 'unequal'
             If ``pooled``, then the standard deviation of the samples is assumed to be
-            the same. If ``unequal``, then Welch ttest with Satterthwait degrees
+            the same. If ``unequal``, then Welch ttest with Satterthwaite degrees
             of freedom is used
         value : float
             difference between the means under the Null hypothesis.
@@ -1137,7 +1137,7 @@ class CompareMeans:
 
         usevar : str, 'pooled' or 'unequal'
             If ``pooled``, then the standard deviation of the samples is assumed to be
-            the same. If ``unequal``, then Welch ttest with Satterthwait degrees
+            the same. If ``unequal``, then Welch ttest with Satterthwaite degrees
             of freedom is used
 
         Returns
@@ -1188,7 +1188,7 @@ class CompareMeans:
 
         usevar : str, 'pooled' or 'unequal'
             If ``pooled``, then the standard deviation of the samples is assumed to be
-            the same. If ``unequal``, then Welch ttest with Satterthwait degrees
+            the same. If ``unequal``, then Welch ttest with Satterthwaite degrees
             of freedom is used
 
         Returns
@@ -1226,7 +1226,7 @@ class CompareMeans:
             equivalence interval low < m1 - m2 < upp
         usevar : str, 'pooled' or 'unequal'
             If ``pooled``, then the standard deviation of the samples is assumed to be
-            the same. If ``unequal``, then Welch ttest with Satterthwait degrees
+            the same. If ``unequal``, then Welch ttest with Satterthwaite degrees
             of freedom is used
 
         Returns
@@ -1253,7 +1253,7 @@ class CompareMeans:
             equivalence interval low < m1 - m2 < upp
         usevar : str, 'pooled' or 'unequal'
             If ``pooled``, then the standard deviation of the samples is assumed to be
-            the same. If ``unequal``, then Welch ttest with Satterthwait degrees
+            the same. If ``unequal``, then Welch ttest with Satterthwaite degrees
             of freedom is used
 
         Returns
@@ -1314,7 +1314,7 @@ def ttest_ind(
 
     usevar : str, 'pooled' or 'unequal'
         If ``pooled``, then the standard deviation of the samples is assumed to be
-        the same. If ``unequal``, then Welch ttest with Satterthwait degrees
+        the same. If ``unequal``, then Welch ttest with Satterthwaite degrees
         of freedom is used
     weights : tuple of None or ndarrays
         Case weights for the two samples. For details on weights see
@@ -1370,7 +1370,7 @@ def ttost_ind(
         equivalence interval low < m1 - m2 < upp
     usevar : str, 'pooled' or 'unequal'
         If ``pooled``, then the standard deviation of the samples is assumed to be
-        the same. If ``unequal``, then Welch ttest with Satterthwait degrees
+        the same. If ``unequal``, then Welch ttest with Satterthwaite degrees
         of freedom is used
     weights : tuple of None or ndarrays
         Case weights for the two samples. For details on weights see
