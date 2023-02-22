@@ -96,10 +96,11 @@ def ttest_power(effect_size, nobs, alpha, df=None, alternative='two-sided'):
 
 
 def normal_power(effect_size, nobs, alpha, alternative='two-sided', sigma=1.):
-    """Calculate power of a normal distributed test statistic
+    """Calculate power of a normally-distributed test statistic
 
-    This is an generalization of `normal_power` when variance under Null and
-    Alternative differ.
+    Calculates power of normally-distributed test statistic for
+    hypothesis tests. Assumes Null and Alternative hypotheses have the
+    same variance.
 
     Parameters
     ----------
@@ -139,7 +140,7 @@ def normal_power(effect_size, nobs, alpha, alternative='two-sided', sigma=1.):
 
 def normal_power_het(diff, nobs, alpha, std_null=1., std_alternative=None,
                  alternative='two-sided'):
-    """Calculate power of a normal distributed test statistic
+    """Calculate power of a normally-distributed test statistic
 
     This is an generalization of `normal_power` when variance under Null and
     Alternative differ.
