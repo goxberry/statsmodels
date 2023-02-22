@@ -116,6 +116,9 @@ def normal_power(effect_size, nobs, alpha, alternative='two-sided', sigma=1.):
         extra argument to choose whether the power is calculated for a
         two-sided (default) or one sided test. The one-sided test can be
         either 'larger', 'smaller'.
+    sigma : nonnegative float (default = 1)
+        Standard deviation under both Null and Alternative hypotheses.
+
     """
 
     d = effect_size
